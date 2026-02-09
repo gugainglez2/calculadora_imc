@@ -1,0 +1,29 @@
+.form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.form input {
+    padding: 12px;
+    border: 1px solid var(--cor-borda);
+    border-radius: 4px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.form input:focus {
+    border-color: var(--cor-secundaria);
+}
+
+.form input:invalid {
+    border: 2px solid var(--cor-erro);
+}
+
+@media (max-width: 480px) {
+    .form {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,18 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2rem;
+}
+
+.table th, .table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.destaque {
+    background-color: var(--cor-destaque, #e1f5fe);
+    color: var(--cor-texto-destaque, #0288d1);
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
