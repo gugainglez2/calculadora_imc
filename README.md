@@ -32,51 +32,6 @@ Uma aplicação web interativa desenvolvida em React para o cálculo do Índice 
 
 ---
 
-## 🛠️ Como Executar o Projeto Localmente
-
-### Pré-requisitos
-Você precisará ter o [Node.js](https://nodejs.org/) instalado em sua máquina.
-
-### Passo a Passo
-
-1. **Clonar o repositório:**
-   ```bash
-   git clone [https://github.com/gugainglez2/calculadora_imc.git](https://github.com/gugainglez2/calculadora_imc.git)
-Acessar o diretório do projeto:
-
-Bash
-cd calculadora_imc
-Instalar as dependências:
-
-Bash
-npm install
-Iniciar o servidor de desenvolvimento (Vite):
-
-Bash
-npm run dev
-Acessar no navegador:
-O terminal indicará o endereço local, geralmente http://localhost:5173/.
-
-📂 Estrutura de Pastas
-Plaintext
-calculadora_imc/
-
-├── src/
-
-│   ├── components/    # Componentes modulares da aplicação (Formulário, Resultado, etc.)
-
-│   ├── App.jsx        # Componente principal que gerencia os estados
-
-│   ├── main.jsx       # Ponto de entrada do React e inicialização do DOM
-
-│   └── index.css      # Estilos globais da aplicação
-
-├── index.html         # Arquivo HTML principal integrado ao ecossistema Vite
-
-├── package.json       # Dependências e scripts do projeto (Vite, React)
-
-└── README.md          # Documentação do projeto
-
 🧠 Principais Aprendizados (EBAC)
 Pensamento em Componentes: Divisão da interface em blocos menores e reutilizáveis, entendendo o fluxo de dados unidirecional do React.
 
