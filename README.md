@@ -60,13 +60,21 @@ O terminal indicará o endereço local, geralmente http://localhost:5173/.
 📂 Estrutura de Pastas
 Plaintext
 calculadora_imc/
+
 ├── src/
+
 │   ├── components/    # Componentes modulares da aplicação (Formulário, Resultado, etc.)
+
 │   ├── App.jsx        # Componente principal que gerencia os estados
+
 │   ├── main.jsx       # Ponto de entrada do React e inicialização do DOM
+
 │   └── index.css      # Estilos globais da aplicação
+
 ├── index.html         # Arquivo HTML principal integrado ao ecossistema Vite
+
 ├── package.json       # Dependências e scripts do projeto (Vite, React)
+
 └── README.md          # Documentação do projeto
 
 🧠 Principais Aprendizados (EBAC)
